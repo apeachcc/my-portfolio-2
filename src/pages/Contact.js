@@ -62,7 +62,7 @@ function Contact() {
                     </div>
                     <div className="text-center">
                         <a href="https://github.com/apeachcc">
-                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width={"50px"} />
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width={"50px"} alt="Github Contact" />
                         </a>
                     </div>
 
