@@ -10,22 +10,6 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Project from './pages/Project';
 
-// function App() {
-//   return (
-//     <Router>
-//     <div>
-//        <Header/>
-//         <Switch>
-//           <Route path="/" component={Home}  />
-//           <Route path="/Contact" element={<Contact/>}  component={Contact}/>
-//           <Route path="/Project" element={<Project/>}  component={Project}/>
-//         </Switch>
-//     </div>
-//     </Router>
-//   );
-// }
-
-
 function App() {
   return (
     <Router>
@@ -41,3 +25,23 @@ function App() {
   );
 }
 export default App;
+
+
+
+
+
+// function App() {
+//   return (
+//     <Router>
+//     <div>
+//        <Header/>
+//         <Switch>
+//           <Route path="/" component={Home}  />
+//           <Route path="/Contact" element={<Contact/>}  component={Contact}/>
+//           <Route path="/Project" element={<Project/>}  component={Project}/>
+//         </Switch>
+//     </div>
+//     </Router>
+//   );
+// }
+
