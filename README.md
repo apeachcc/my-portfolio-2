@@ -1,18 +1,66 @@
-# Getting Started with Create React App
+# React Portfolio
+This is a React-based portfolio website project that includes a homepage, contact page, and project page with image gallery.
+
+## Installation
+To install the necessary dependencies for this project, run the following command:
+
+`npm install`
+
+## Usage
+To start the React server, run the following command:
+
+`npm start`
+This will start the server on http://localhost:3000.
+
+## File Structure
+The project is structured as follows:
+
+
+    ├── public/
+    │   ├── index.html
+    ├── src/
+    │   ├── components/
+    │   │   ├── Header.js
+    │   │   └── Gallery.js
+    │   ├── pages/
+    │   │   ├── Contact.js
+    │   │   ├── Home.js
+    │   │   └── Project.js
+    │   ├── App.js
+    │   ├── index.js
+    │   └── index.css
+    └── package.json
+
+public/: Contains the index.html file and project images.
+src/: Contains the source code for the React components and pages.
+src/components/: Contains the reusable components used in the pages.
+src/pages/: Contains the main pages of the portfolio.
+src/App.js: Contains the routing and overall app structure.
+src/index.js: Contains the code to render the app to the DOM.
+package.json: Contains the dependencies and scripts for the project.
+
+## Dependencies
+This project uses the following dependencies:
+
+    "react": 18.2.0
+    "react-dom": 18.2.0
+    "react-router-dom": 6.9.0
+    "react-scripts": 5.0.1
+    "bootstrap": version 5.1.3
+    "react-bootstrap": version 2.0.0-beta.6
+
+
+##Credits
+This project was created by the author.
+Photo and infomation were from Cartoon Network.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In the project directory, you can also run:
 
 ### `npm test`
 
