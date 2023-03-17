@@ -4,7 +4,7 @@
 // Projects page
 // Project (on Projects page)
 // Contact page
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -15,11 +15,11 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/project" component={Project} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/project" element={<Project/>} />
+          <Route path="/contact" element={<Contact/>} />
+        </Routes>
       </div>
     </Router>
   );
@@ -37,8 +37,8 @@ export default App;
 //        <Header/>
 //         <Switch>
 //           <Route path="/" component={Home}  />
-//           <Route path="/Contact" element={<Contact/>}  component={Contact}/>
-//           <Route path="/Project" element={<Project/>}  component={Project}/>
+//           <Route path="/Contact" component={Contact}/>
+//           <Route path="/Project" component={Project}/>
 //         </Switch>
 //     </div>
 //     </Router>
