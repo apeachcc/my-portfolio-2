@@ -50,7 +50,7 @@ This project uses the following dependencies:
     "react-bootstrap": version 2.0.0-beta.6
 
 
-##Credits
+## Credits
 This project was created by the author.
 Photo and infomation were from Cartoon Network.
 
