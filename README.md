@@ -1,17 +1,9 @@
 # React Portfolio
 This is a React-based portfolio website project that includes a homepage, contact page, and project page with image gallery.
 
-## Installation
-To install the necessary dependencies for this project, run the following command:
+## Deployed Link
+https://main--sprightly-sopapillas-14f971.netlify.app/
 
-`npm install`
-
-## Usage
-To start the React server, run the following command:
-
-`npm start`
-
-This will start the server on http://localhost:3000.
 
 ## File Structure
 The project is structured as follows:
@@ -58,11 +50,25 @@ This project uses the following dependencies:
 
 ## Credits
 This project was created by the author.
+
 Photo and infomation were from Cartoon Network.
 
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation
+To install the necessary dependencies for this project, run the following command:
+
+`npm install`
+
+## Usage
+
+To start the React server, run the following command:
+
+`npm start`
+
+This will start the server on http://localhost:3000.
 
 ## Available Scripts
 
