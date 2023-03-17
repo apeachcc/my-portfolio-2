@@ -26,7 +26,7 @@ const Home = ({ name, title }) => {
             </div>
             <div className="row">
                 <div className="col-md-6">
-                    <img src="https://apeachcc.github.io/Bootstrap-Portfolio/images/image-finn.jpeg" alt="Profile Picture" className="img-fluid" />
+                    <img src="https://apeachcc.github.io/Bootstrap-Portfolio/images/image-finn.jpeg" alt="Profile" className="img-fluid" />
                 </div>
                 <div className="col-md-4">
                     
