@@ -10,6 +10,7 @@ To install the necessary dependencies for this project, run the following comman
 To start the React server, run the following command:
 
 `npm start`
+
 This will start the server on http://localhost:3000.
 
 ## File Structure
@@ -31,13 +32,18 @@ The project is structured as follows:
     │   └── index.css
     └── package.json
 
-public/: Contains the index.html file and project images.
-src/: Contains the source code for the React components and pages.
-src/components/: Contains the reusable components used in the pages.
-src/pages/: Contains the main pages of the portfolio.
-src/App.js: Contains the routing and overall app structure.
-src/index.js: Contains the code to render the app to the DOM.
-package.json: Contains the dependencies and scripts for the project.
+* public/: Contains the index.html file and project images.
+
+* src/: Contains the source code for the React components and pages.
+
+* src/components/: Contains the reusable components used in the pages.
+
+* src/pages/: Contains the main pages of the portfolio.
+
+* src/App.js: Contains the routing and overall app structure.
+
+* src/index.js: Contains the code to render the app to the DOM.
+* package.json: Contains the dependencies and scripts for the project.
 
 ## Dependencies
 This project uses the following dependencies:
