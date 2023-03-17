@@ -4,6 +4,8 @@ This is a React-based portfolio website project that includes a homepage, contac
 ## Deployed Link
 https://main--sprightly-sopapillas-14f971.netlify.app/
 
+## Screenshot
+![alt text](src/components/screenshot.png)
 
 ## File Structure
 The project is structured as follows:
